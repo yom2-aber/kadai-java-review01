@@ -9,7 +9,7 @@ public class Review01 {
 
     public static int tax(int num1) {
         int taxRate = 10;
-        int result = num1 / taxRate;
+        int result = num1 * taxRate/100;
         return result;
     }
 }
